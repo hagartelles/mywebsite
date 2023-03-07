@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0px auto;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(197, 203, 207);
+    max-width: 1680px;
+
+}
+
+html{
+    background-color: #1c1c1c;
+    
+}
+
+#bodycontainer{
+    background-image: url(../img/code.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left;
+    background-attachment:local;
+}
+
+/* #containerbody {
+ background-image: url(../img/code.png);
+ margin-left: auto;
+ margin-top:30px;
+ background-repeat: no-repeat;
+ background-position: right;
+ 
+} */
+
+.imgcode{
+    margin:0px;
+    
+}
+h2{
+    font-style: italic;
+}
+
+/*Css de cada uma das seções do index*/
+#contato{
+    margin-top:  0px;
+}
+
+#aboutme {
+    margin-top:  0px;
+
+}
+
+.sobre{
+    height: 600px;
+    
+}
+.sobre p{
+    margin-left: 0px;
+    width:450px;
+}
+
+
+ul{
+    list-style-type:none;
+}
+
+ul p{
+    font-weight: bold;
+}
+#projetos {
+    margin-top:  0px;
+}
+
+/* Foto de perfil */
+.profile {
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-left: 00px;
+
+}
+
+/* menu superior */
+#menusup{
+    margin-left: auto;
+    width: 600px;
+    box-sizing: border-box;
+}
+
+#menusup ul li{
+
+    list-style: none;
+    display:inline;
+    align-items: center;
+   
+}
+
+#menusup ul li a{
+        display:inline-block;
+        text-decoration:none;
+        font-weight: bold;
+        padding:10px;
+        width: 120px;
+        transition: .7s;
+        text-align: center;
+        
+}
+
+#menusup ul li a:hover{
+    text-decoration:underline rgb(70, 255, 162);
+    color: rgb(70, 255, 162);
+    
+}
+
+/* imagens como codigo do site */
+
+.imghtml {
+    margin-top: 0px;
+    margin-left: -120px;  
+}
+
+.imgbody {
+    margin-top: 0px;
+    margin-left: -100px;
+}
+
+.imgh1 {
+    margin-top: 0px;
+    margin-left: -60px;
+}
+
+.imgh2 {
+    margin-bottom: 0px;
+    margin-left: -60px;
+}
+
+.imgp {
+    margin-bottom: 0px;
+    margin-left: -40px;
+}
+
+.imgsection {
+    margin-bottom: 0px;
+    margin-left: -60px;
+}
+
+.imgform {
+    margin-bottom: 0px;
+    margin-left: -40px;
+}
+
+
+p{
+    margin-top: 20px;
+}
+
